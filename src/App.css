@@ -48,3 +48,15 @@
 .game-container {
   margin-top: 50px;
 }
+
+.color-swatch:hover {
+  opacity: 0.9;
+}
+
+.color-swatch.correct {
+  border: 3px solid green;
+}
+
+.color-swatch.incorrect {
+  border: 3px solid red;
+}
